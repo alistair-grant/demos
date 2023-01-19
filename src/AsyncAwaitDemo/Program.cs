@@ -8,7 +8,7 @@
         Console.WriteLine();
 
         WriteNow();
-        await MethodThatAwaitsDelay();
+        await MethodThatAwaitsDelayAsync();
         WriteNow();
 
         Console.WriteLine();
@@ -16,7 +16,7 @@
         Console.WriteLine();
 
         WriteNow();
-        await MethodThatReturnsDelayTask();
+        await MethodThatReturnsDelayTaskAsync();
         WriteNow();
 
         Console.WriteLine();
@@ -24,12 +24,12 @@
         Console.ReadKey(intercept: true);
     }
 
-    private static async Task MethodThatAwaitsDelay()
+    private static async Task MethodThatAwaitsDelayAsync()
     {
         await Task.Delay(DelayTime);
     }
 
-    private static Task MethodThatReturnsDelayTask()
+    private static Task MethodThatReturnsDelayTaskAsync()
     {
         return Task.Delay(DelayTime);
     }
