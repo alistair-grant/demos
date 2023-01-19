@@ -19,6 +19,7 @@
         await MethodThatReturnsDelayTask();
         WriteNow();
 
+        Console.WriteLine();
         Console.WriteLine("Press any key to exit...");
         Console.ReadKey(intercept: true);
     }
