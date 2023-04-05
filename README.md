@@ -11,4 +11,9 @@ asynchronous methods; only those having logic _after_ an awaited statement.
 
 A demo of using `Microsoft.Extensions.DependencyInjection` in a .NET console
 application. As an example of dependency injection, it also shows how to use
-`Microsoft.Extensions.Logging` in the application.
+`Microsoft.Extensions.Logging` for console logging.
+
+#### RestClientDemo
+
+Shows how to configure the dependency injection of `HttpClient` into REST
+client implementations using `IHttpClientFactory` helper methods.

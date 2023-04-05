@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwaitDemo", "AsyncAwai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppDependencyInjectionDemo", "ConsoleAppDependencyInjectionDemo\ConsoleAppDependencyInjectionDemo.csproj", "{80006BF9-EA2F-4E78-A3EE-BED469D66AE5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestClientDemo", "RestClientDemo\RestClientDemo.csproj", "{82C5F10D-7077-4100-A699-F3C2AAE4831F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{80006BF9-EA2F-4E78-A3EE-BED469D66AE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80006BF9-EA2F-4E78-A3EE-BED469D66AE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80006BF9-EA2F-4E78-A3EE-BED469D66AE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82C5F10D-7077-4100-A699-F3C2AAE4831F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82C5F10D-7077-4100-A699-F3C2AAE4831F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82C5F10D-7077-4100-A699-F3C2AAE4831F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82C5F10D-7077-4100-A699-F3C2AAE4831F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
