@@ -17,3 +17,7 @@ application. As an example of dependency injection, it also shows how to use
 
 Shows how to configure the dependency injection of `HttpClient` into REST
 client implementations using `IHttpClientFactory` helper methods.
+
+#### RestClientDemo.Tests
+
+A demo of `HttpClient` testing via `HttpMessageHandler` mocking.

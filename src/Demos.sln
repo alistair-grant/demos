@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppDependencyInjecti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestClientDemo", "RestClientDemo\RestClientDemo.csproj", "{82C5F10D-7077-4100-A699-F3C2AAE4831F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestClientDemo.Tests", "RestClientDemo.Tests\RestClientDemo.Tests.csproj", "{09C1A30A-3EBF-4B74-AC25-E3DCED8DFB6E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{82C5F10D-7077-4100-A699-F3C2AAE4831F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82C5F10D-7077-4100-A699-F3C2AAE4831F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82C5F10D-7077-4100-A699-F3C2AAE4831F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09C1A30A-3EBF-4B74-AC25-E3DCED8DFB6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09C1A30A-3EBF-4B74-AC25-E3DCED8DFB6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09C1A30A-3EBF-4B74-AC25-E3DCED8DFB6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09C1A30A-3EBF-4B74-AC25-E3DCED8DFB6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
